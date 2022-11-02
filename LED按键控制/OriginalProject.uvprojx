@@ -690,6 +690,16 @@
               <FileType>5</FileType>
               <FilePath>.\Hardware\LED.h</FilePath>
             </File>
+            <File>
+              <FileName>GPIO.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Hardware\GPIO.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>GPIO.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\GPIO.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
