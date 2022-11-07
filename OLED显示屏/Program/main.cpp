@@ -3,12 +3,13 @@
 #include "GPIO.h"
 #include "OLED.h"
 
+OLED S1;
 GPIO PA8,PA3;
 
 int main(void){
-    OLED_Init();
+    S1.OLED_Init(GPIOB,GPIO_Pin_8,GPIO_Pin_9);
     
-    OLED_ShowString(1,2, "HelloWorld!");
+    S1.OLED_ShowString(1,2, "RMSHE");
     while(true){
     }
 }
